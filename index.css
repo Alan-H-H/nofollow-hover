@@ -1,0 +1,46 @@
+i{
+    font-size: 70px;
+}
+.ct-icon-boxes .ct-icon-box {
+    cursor: pointer;
+}
+.ct-icon-boxes .ct-icon-box {
+    padding-top: 8px;
+    width: 50%;
+    float: left;
+    position: relative;
+    border: 2px solid #ccc;
+    min-height: 150px;
+    display: inline-table;
+    text-align: center;
+    color: #dd7564;
+    margin-bottom: -2px;
+    cursor: pointer;
+  }
+  
+  .ct-icon-box:hover {
+    background: #b2ded0;
+    color: #fff;
+    letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+  }
+  
+  .ct-icon-boxes {
+    margin: 65px auto;
+    max-width: 525px;
+    overflow: auto;
+    clear: both;
+  }
+  
+  .ct-icon-boxes .ct-icon-box__header {
+    font-size: 22px;
+  }
+  
+  section h3 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+ 
