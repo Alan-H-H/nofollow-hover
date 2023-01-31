@@ -1,11 +1,23 @@
+body{
+  float: left
+}
 i{
-    font-size: 70px;
+    font-size: 30px;
+}
+*{
+box-sizing: border-box
+}
+@media (max-width: 800px) {
+  .element{
+      width: 100%;
+}
 }
 .ct-icon-boxes .ct-icon-box {
     cursor: pointer;
 }
 .ct-icon-boxes .ct-icon-box {
     padding-top: 8px;
+    height: 21%;
     width: 50%;
     float: left;
     position: relative;
@@ -40,7 +52,7 @@ transition: all 0.4s ease 0s;
   }
   
   section h3 {
-    font-weight: 600;
+    font-weight: 300;
     letter-spacing: 0.5px;
   }
  
